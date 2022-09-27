@@ -2,62 +2,62 @@
 <character>
   <createdversion>5.205.42</createdversion>
   <minimumappversion>5.214.1</minimumappversion>
-  <appversion>5.222.0</appversion>
+  <appversion>5.223.0.0</appversion>
   <gameedition>SR5</gameedition>
   <settings>All rules point buy.xml</settings>
   <buildmethod>Karma</buildmethod>
   <sources>
-    <source>SR5</source>
-    <source>RF</source>
-    <source>AET</source>
     <source>AP</source>
-    <source>BTB</source>
-    <source>BLB</source>
-    <source>BOTL</source>
+    <source>GH3</source>
+    <source>RG</source>
+    <source>SR5</source>
+    <source>SG</source>
+    <source>SGE</source>
     <source>BB</source>
-    <source>CF</source>
-    <source>CA</source>
-    <source>DTR</source>
+    <source>SASS</source>
+    <source>SS</source>
+    <source>RF</source>
+    <source>SSP</source>
+    <source>NP</source>
     <source>DT</source>
     <source>DTD</source>
-    <source>SOTG</source>
-    <source>DPVG</source>
-    <source>FA</source>
-    <source>GE</source>
-    <source>GH3</source>
-    <source>HAMG</source>
+    <source>CF</source>
     <source>HT</source>
-    <source>HKS</source>
-    <source>HS</source>
-    <source>KC</source>
-    <source>KK</source>
-    <source>LCD</source>
-    <source>NF</source>
-    <source>NP</source>
-    <source>R5</source>
-    <source>RG</source>
-    <source>SASS</source>
+    <source>BLB</source>
     <source>SHB</source>
     <source>SHB2</source>
     <source>SHB3</source>
-    <source>SSP</source>
+    <source>R5</source>
+    <source>HS</source>
+    <source>TVG</source>
+    <source>SPS</source>
+    <source>SFB</source>
+    <source>HKS</source>
+    <source>LCD</source>
+    <source>SFM</source>
+    <source>SFME</source>
+    <source>CA</source>
     <source>2050</source>
+    <source>BOTL</source>
+    <source>FA</source>
+    <source>SAG</source>
+    <source>TCT</source>
+    <source>SFCC</source>
+    <source>DTR</source>
+    <source>TSG</source>
+    <source>SL</source>
+    <source>KC</source>
+    <source>HAMG</source>
+    <source>BTB</source>
+    <source>AET</source>
+    <source>NF</source>
+    <source>SOTG</source>
+    <source>DPVG</source>
+    <source>KK</source>
     <source>SRM0803</source>
     <source>SRM0804</source>
-    <source>SFB</source>
-    <source>SFME</source>
-    <source>SFM</source>
-    <source>SFCC</source>
-    <source>SPS</source>
+    <source>GE</source>
     <source>SW</source>
-    <source>SAG</source>
-    <source>SS</source>
-    <source>SG</source>
-    <source>SGE</source>
-    <source>SL</source>
-    <source>TCT</source>
-    <source>TSG</source>
-    <source>TVG</source>
   </sources>
   <metatype>Human</metatype>
   <metatypeid>a53d885d-a4a4-443d-b6a6-b0a55b0a96c7</metatypeid>
@@ -131,7 +131,7 @@ Here's some dice math!\par
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>21</karma>
+  <karma>0</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>0</totalattributes>
@@ -155,9 +155,9 @@ Here's some dice math!\par
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>1629.000</nuyen>
+  <nuyen>629.000</nuyen>
   <startingnuyen>0</startingnuyen>
-  <nuyenbp>35</nuyenbp>
+  <nuyenbp>36</nuyenbp>
   <adept>False</adept>
   <magician>False</magician>
   <technomancer>True</technomancer>
@@ -283,9 +283,9 @@ Here's some dice math!\par
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
-      <karma>4</karma>
+      <karma>5</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>ESS</name>
@@ -369,7 +369,7 @@ Here's some dice math!\par
         <guid>872ef300-d359-4c1a-bacf-c9642b82c803</guid>
         <suid>e09e5aa7-e496-41a2-97ce-17f577361888</suid>
         <isknowledge>False</isknowledge>
-        <skillcategory>Physical Active</skillcategory>
+        <skillcategory>Technical Active</skillcategory>
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
@@ -621,12 +621,20 @@ cover in a run Min6(8) -
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>3</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
         <name>Cybercombat</name>
-        <buywithkarma>False</buywithkarma>
+        <buywithkarma>True</buywithkarma>
+        <specs>
+          <spec>
+            <guid>91a1ed31-21b4-4ac6-a6d0-b57c9aa4a126</guid>
+            <name>Personas</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>6d932016-e187-4e3f-9263-02ff981f9608</guid>
@@ -1062,7 +1070,7 @@ medkit to the dice your roll. Min 4(6) -
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>3</karma>
+        <karma>2</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -1433,72 +1441,84 @@ brainer min 6(8) -
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>a07b26d4-a9dc-4bd6-908f-ddfcb9149021</id>
         <name>Acting</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>dbf48a08-9516-4501-9b50-3d5590e3dd85</id>
         <name>Athletics</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>0912e80b-8a77-45b8-8b49-89f2dc823aa0</id>
         <name>Biotech</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>821ab63f-8fa5-45ac-ae73-e2e94915d7ad</id>
         <name>Close Combat</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>cac15db2-696d-48d4-a4b0-99b2aecdabda</id>
         <name>Cracking</name>
       </group>
       <group>
-        <karma>4</karma>
+        <karma>3</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>ce693b63-909d-46c3-9d67-d5b65992d328</id>
         <name>Electronics</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>83349b1b-5968-42d9-858b-aa5847069281</id>
         <name>Engineering</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>263874a4-78da-4ae1-a81d-43a6b3ffac83</id>
         <name>Firearms</name>
       </group>
       <group>
         <karma>1</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>bb5e9732-a50c-4ca8-b8f7-77184f166667</id>
         <name>Influence</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>bff07148-e462-432d-8f06-591c3b2b3e1a</id>
         <name>Outdoors</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>0d14e1b6-dad4-4106-8e1e-7420e28ea285</id>
         <name>Stealth</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>4c0faaf2-a241-43b9-b9d4-c52d5b4bf14e</id>
         <name>Tasking</name>
       </group>
@@ -1579,6 +1599,20 @@ brainer min 6(8) -
       <extra />
       <source>SR5</source>
       <page>253</page>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <grade>0</grade>
+    </complexform>
+    <complexform>
+      <sourceid>dbb1d719-c829-4c45-9a53-9ff538865c14</sourceid>
+      <guid>cd9f9cf2-98dc-4581-a90f-2314eff19c94</guid>
+      <name>Static Veil</name>
+      <target>Persona</target>
+      <duration>S</duration>
+      <fv>L-3</fv>
+      <extra />
+      <source>SR5</source>
+      <page>252</page>
       <notes />
       <notesColor>Chocolate</notesColor>
       <grade>0</grade>
@@ -2036,7 +2070,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>Physical</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>0</conceal>
       <avail>0</avail>
       <cost>0</cost>
@@ -2119,7 +2153,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>5</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>-2</conceal>
       <avail>0</avail>
       <cost>0</cost>
@@ -2202,7 +2236,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>2</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>6</conceal>
       <avail>0</avail>
       <cost>0</cost>
@@ -2285,7 +2319,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>Physical</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>0</conceal>
       <avail>4R</avail>
       <cost>0</cost>
@@ -2368,7 +2402,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>5</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>-2</conceal>
       <avail>0</avail>
       <cost>100</cost>
@@ -2958,7 +2992,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>3</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>6</conceal>
       <avail>0</avail>
       <cost>0</cost>
@@ -3041,7 +3075,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>4</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>0</conceal>
       <avail>8R</avail>
       <cost>350</cost>
@@ -3807,6 +3841,7 @@ brainer min 6(8) -
           <discountedcost>False</discountedcost>
           <addtoparentess>False</addtoparentess>
           <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
           <active>False</active>
           <homenode>False</homenode>
           <devicerating />
@@ -3832,6 +3867,7 @@ brainer min 6(8) -
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
       <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -3978,6 +4014,82 @@ brainer min 6(8) -
           <discountedcost>False</discountedcost>
           <addtoparentess>False</addtoparentess>
           <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>2fc68ac6-2de5-4cb9-b25b-4fc53d1352fd</guid>
+          <sourceid>25900e3b-d523-4bae-932c-d199a7c00d0f</sourceid>
+          <name>Custom Machine Pistol</name>
+          <category>Cyber Implant Weapon</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0.5</ess>
+          <capacity>[6]</capacity>
+          <avail>0</avail>
+          <cost>3000</cost>
+          <weight />
+          <source>CF</source>
+          <page>90</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>0</rating>
+          <minrating />
+          <maxrating />
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems>Cyber Implant Weapon Accessory</subsystems>
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Custom Machine Pistol</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Custom Machine Pistol</name>
+          </wirelesspairinclude>
+          <children />
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
           <active>False</active>
           <homenode>False</homenode>
           <devicerating />
@@ -4003,6 +4115,7 @@ brainer min 6(8) -
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
       <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -4062,6 +4175,170 @@ brainer min 6(8) -
       <notes />
       <notesColor>Chocolate</notesColor>
     </quality>
+    <quality>
+      <sourceid>1e3d8aff-c31c-41f9-8c62-e3332cac79fa</sourceid>
+      <guid>0d048cd0-25f5-4072-bde0-a2d8df0639a8</guid>
+      <name>Wanted</name>
+      <extra>Evo</extra>
+      <bp>-10</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>159</page>
+      <sourcename />
+      <bonus>
+        <selecttext />
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </quality>
+    <quality>
+      <sourceid>6bbeb733-a7cc-4427-924b-8c6174399051</sourceid>
+      <guid>7ae1fd3b-59ab-44e2-bf8a-10165fd88050</guid>
+      <name>Buddy System</name>
+      <extra />
+      <bp>-9</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>KC</source>
+      <page>77</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </quality>
+    <quality>
+      <sourceid>b7841930-0c7b-4be4-b1cf-86debc41aa95</sourceid>
+      <guid>5fbf0616-ca02-44db-ae2e-e0ac6ba55a29</guid>
+      <name>Allergy (Uncommon, Mild)</name>
+      <extra>Alchohol</extra>
+      <bp>-5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>78</page>
+      <sourcename />
+      <bonus>
+        <selecttext />
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </quality>
+    <quality>
+      <sourceid>4d5c22b9-4908-493d-a6f7-4ccc3066888c</sourceid>
+      <guid>605fe08a-305d-4ac7-8d4a-8c0683abc8e9</guid>
+      <name>Focused Concentration</name>
+      <extra />
+      <bp>4</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>74</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </quality>
+    <quality>
+      <sourceid>41cc3e26-ae55-4e28-bd6a-b08866c21424</sourceid>
+      <guid>6a1db207-7001-4485-b99c-27ce00dbbbd8</guid>
+      <name>Codeslinger</name>
+      <extra>Hack on the Fly</extra>
+      <bp>10</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>72</page>
+      <sourcename />
+      <bonus>
+        <actiondicepool category="Matrix" />
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </quality>
+    <quality>
+      <sourceid>9f25cc0a-c47c-49dd-953c-8fe60628bae8</sourceid>
+      <guid>d5d80cd9-2b90-4f00-8278-57125f503c6f</guid>
+      <name>First Impression</name>
+      <extra />
+      <bp>11</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>74</page>
+      <sourcename />
+      <bonus>
+        <notoriety>-1</notoriety>
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </quality>
   </qualities>
   <lifestyles>
     <lifestyle>
@@ -4100,8 +4377,7 @@ brainer min 6(8) -
       <city />
       <district />
       <borough />
-      <lifestylequalities />
-      <freegrids>
+      <lifestylequalities>
         <lifestylequality>
           <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
           <guid>99ab265f-7342-4e19-a57d-ec101d1615c3</guid>
@@ -4121,7 +4397,9 @@ brainer min 6(8) -
           <contributetolimit>True</contributetolimit>
           <print>True</print>
           <lifestylequalitytype>Entertainment</lifestylequalitytype>
-          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>True</isfreegrid>
           <source>RF</source>
           <page>222</page>
           <allowed>Medium,High,Luxury</allowed>
@@ -4130,7 +4408,7 @@ brainer min 6(8) -
           <notes />
           <notesColor>Chocolate</notesColor>
         </lifestylequality>
-      </freegrids>
+      </lifestylequalities>
       <notes />
       <notesColor>Chocolate</notesColor>
       <sortorder>0</sortorder>
@@ -9528,6 +9806,78 @@ brainer min 6(8) -
     </improvement>
     <improvement>
       <target />
+      <improvedname>Evo</improvedname>
+      <sourcename>0d048cd0-25f5-4072-bde0-a2d8df0639a8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Alchohol</improvedname>
+      <sourcename>5fbf0616-ca02-44db-ae2e-e0ac6ba55a29</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Hack on the Fly</improvedname>
+      <sourcename>6a1db207-7001-4485-b99c-27ce00dbbbd8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ActionDicePool</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
       <improvedname>RES</improvedname>
       <sourcename />
       <min>-1</min>
@@ -9612,6 +9962,30 @@ brainer min 6(8) -
       <condition />
       <improvementttype>Attribute</improvementttype>
       <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d5d80cd9-2b90-4f00-8278-57125f503c6f</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Notoriety</improvementttype>
+      <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />

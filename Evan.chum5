@@ -2,60 +2,49 @@
 <character>
   <createdversion>5.205.42</createdversion>
   <minimumappversion>5.214.1</minimumappversion>
-  <appversion>5.222.0</appversion>
+  <appversion>5.223.0.0</appversion>
   <gameedition>SR5</gameedition>
-  <settings>All rules point buy.xml</settings>
+  <settings>803dd14a-9b21-4224-84d5-202511d94008</settings>
   <buildmethod>Karma</buildmethod>
   <sources>
     <source>SR5</source>
-    <source>RF</source>
     <source>AET</source>
     <source>AP</source>
     <source>BTB</source>
-    <source>BLB</source>
     <source>BOTL</source>
+    <source>BLB</source>
     <source>BB</source>
-    <source>CF</source>
     <source>CA</source>
+    <source>CF</source>
     <source>DTR</source>
     <source>DT</source>
-    <source>DTD</source>
-    <source>SOTG</source>
-    <source>DPVG</source>
     <source>FA</source>
-    <source>GE</source>
     <source>GH3</source>
-    <source>HAMG</source>
     <source>HT</source>
-    <source>HKS</source>
     <source>HS</source>
-    <source>KC</source>
     <source>KK</source>
+    <source>KC</source>
     <source>LCD</source>
     <source>NF</source>
     <source>NP</source>
     <source>R5</source>
     <source>RG</source>
+    <source>RF</source>
     <source>SASS</source>
-    <source>SHB</source>
-    <source>SHB2</source>
-    <source>SHB3</source>
     <source>SSP</source>
-    <source>2050</source>
-    <source>SRM0803</source>
-    <source>SRM0804</source>
     <source>SFB</source>
     <source>SFME</source>
     <source>SFM</source>
     <source>SFCC</source>
     <source>SPS</source>
-    <source>SW</source>
-    <source>SAG</source>
+    <source>SRM0803</source>
+    <source>SRM0804</source>
     <source>SS</source>
     <source>SG</source>
     <source>SGE</source>
-    <source>SL</source>
+    <source>SW</source>
     <source>TCT</source>
+    <source>SL</source>
     <source>TSG</source>
     <source>TVG</source>
   </sources>
@@ -63,7 +52,7 @@
   <metatypeid>b3259991-b315-4dbe-ae3c-51f71a1116e2</metatypeid>
   <metatypebp>40</metatypebp>
   <metavariant>None</metavariant>
-  <metavariantid>00000000-0000-0000-0000-000000000000</metavariantid>
+  <metavariantid>b3259991-b315-4dbe-ae3c-51f71a1116e2</metavariantid>
   <metatypecategory>Metahuman</metatypecategory>
   <movement />
   <walk>2/1/0</walk>
@@ -131,7 +120,7 @@ Here's some dice math!\par
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>5</karma>
+  <karma>0</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>0</totalattributes>
@@ -183,9 +172,9 @@ Here's some dice math!\par
       <metatypemax>7</metatypemax>
       <metatypeaugmax>11</metatypeaugmax>
       <base>0</base>
-      <karma>5</karma>
+      <karma>4</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>8</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
     <attribute>
       <name>REA</name>
@@ -294,7 +283,7 @@ Here's some dice math!\par
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <metatypecategory>Special</metatypecategory>
+      <metatypecategory>Standard</metatypecategory>
       <totalvalue>1</totalvalue>
     </attribute>
     <attribute>
@@ -317,6 +306,24 @@ Here's some dice math!\par
   <groupname />
   <groupnotes />
   <totaless>6</totaless>
+  <tradition>
+    <sourceid>19320625-bc1a-492f-8904-da6a847e5700</sourceid>
+    <guid>26a127f0-02f7-4d09-9330-d2674e436edb</guid>
+    <traditiontype>MAG</traditiontype>
+    <name>Hermetic</name>
+    <extra />
+    <spiritform>Materialization</spiritform>
+    <drain>{WIL} + {LOG}</drain>
+    <source>SR5</source>
+    <page>279</page>
+    <spiritcombat>Spirit of Fire</spiritcombat>
+    <spiritdetection>Spirit of Air</spiritdetection>
+    <spirithealth>Spirit of Man</spirithealth>
+    <spiritillusion>Spirit of Water</spiritillusion>
+    <spiritmanipulation>Spirit of Earth</spiritmanipulation>
+    <spirits />
+    <bonus />
+  </tradition>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -343,7 +350,7 @@ Here's some dice math!\par
         <guid>872ef300-d359-4c1a-bacf-c9642b82c803</guid>
         <suid>e09e5aa7-e496-41a2-97ce-17f577361888</suid>
         <isknowledge>False</isknowledge>
-        <skillcategory>Physical Active</skillcategory>
+        <skillcategory>Technical Active</skillcategory>
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
@@ -1036,7 +1043,7 @@ medkit to the dice your roll. Min 4(6) -
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>1</karma>
+        <karma>0</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -1194,7 +1201,7 @@ Min8(10)
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>4</karma>
+        <karma>6</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -1335,7 +1342,7 @@ brainer min 6(8) -
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -1363,9 +1370,9 @@ brainer min 6(8) -
       </skill>
       <skill>
         <guid>113d75ce-d55d-44b6-89c4-1a26a57af8bf</guid>
-        <suid>9843709f-803a-4424-88a2-d972d3405955</suid>
+        <suid>3dc3854e-5d67-4ee8-8ffa-c637394859a6</suid>
         <isknowledge>True</isknowledge>
-        <skillcategory>Street</skillcategory>
+        <skillcategory>Interest</skillcategory>
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
@@ -1373,9 +1380,17 @@ brainer min 6(8) -
         <base>3</base>
         <notes />
         <notesColor>Chocolate</notesColor>
-        <name>Magical Threats</name>
+        <name>Security Design</name>
         <buywithkarma>False</buywithkarma>
-        <type>Street</type>
+        <specs>
+          <spec>
+            <guid>95d6eb1a-af30-43cf-9f83-c865c38a5d1f</guid>
+            <name>Corporate</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Interest</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
@@ -1409,66 +1424,77 @@ brainer min 6(8) -
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>a07b26d4-a9dc-4bd6-908f-ddfcb9149021</id>
         <name>Acting</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>dbf48a08-9516-4501-9b50-3d5590e3dd85</id>
         <name>Athletics</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>0912e80b-8a77-45b8-8b49-89f2dc823aa0</id>
         <name>Biotech</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>821ab63f-8fa5-45ac-ae73-e2e94915d7ad</id>
         <name>Close Combat</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>cac15db2-696d-48d4-a4b0-99b2aecdabda</id>
         <name>Cracking</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>ce693b63-909d-46c3-9d67-d5b65992d328</id>
         <name>Electronics</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>83349b1b-5968-42d9-858b-aa5847069281</id>
         <name>Engineering</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>263874a4-78da-4ae1-a81d-43a6b3ffac83</id>
         <name>Firearms</name>
       </group>
       <group>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>bb5e9732-a50c-4ca8-b8f7-77184f166667</id>
         <name>Influence</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>bff07148-e462-432d-8f06-591c3b2b3e1a</id>
         <name>Outdoors</name>
       </group>
       <group>
         <karma>4</karma>
         <base>0</base>
+        <isbroken>False</isbroken>
         <id>0d14e1b6-dad4-4106-8e1e-7420e28ea285</id>
         <name>Stealth</name>
       </group>
@@ -1595,6 +1621,52 @@ brainer min 6(8) -
         <surprise>Rating</surprise>
       </bonus>
       <adeptwayrequires>
+      </adeptwayrequires>
+      <enhancements />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </power>
+    <power>
+      <sourceid>75821fb7-a180-4012-aa16-daa92ac3bb63</sourceid>
+      <guid>d65e83b9-a715-4c0b-9611-ab0d2d2ad5c3</guid>
+      <name>Improved Ability (skill)</name>
+      <extra>Blades</extra>
+      <pointsperlevel>0.5</pointsperlevel>
+      <adeptway>0.25</adeptway>
+      <action />
+      <rating>0</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SR5</source>
+      <page>309</page>
+      <bonus>
+        <selectskill minimumrating="1">
+          <val>Rating</val>
+          <skillcategories>
+            <category>Combat Active</category>
+            <category>Physical Active</category>
+            <category>Social Active</category>
+            <category>Technical Active</category>
+            <category>Vehicle Active</category>
+          </skillcategories>
+        </selectskill>
+      </bonus>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Artisan's Way</quality>
+            <quality>The Artist's Way</quality>
+            <quality>The Athlete's Way</quality>
+            <quality>The Speaker's Way</quality>
+            <quality>The Spiritual Way</quality>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
       </adeptwayrequires>
       <enhancements />
       <notes />
@@ -1752,80 +1824,11 @@ brainer min 6(8) -
       <notes />
       <notesColor>Chocolate</notesColor>
     </power>
-    <power>
-      <sourceid>75821fb7-a180-4012-aa16-daa92ac3bb63</sourceid>
-      <guid>d65e83b9-a715-4c0b-9611-ab0d2d2ad5c3</guid>
-      <name>Improved Ability (skill)</name>
-      <extra>Blades</extra>
-      <pointsperlevel>0.5</pointsperlevel>
-      <adeptway>0.25</adeptway>
-      <action />
-      <rating>0</rating>
-      <extrapointcost>0</extrapointcost>
-      <levels>True</levels>
-      <maxlevels>0</maxlevels>
-      <discounted>False</discounted>
-      <discountedgeas>False</discountedgeas>
-      <bonussource />
-      <freepoints>0</freepoints>
-      <source>SR5</source>
-      <page>309</page>
-      <bonus>
-        <selectskill minimumrating="1">
-          <val>Rating</val>
-          <skillcategories>
-            <category>Combat Active</category>
-            <category>Physical Active</category>
-            <category>Social Active</category>
-            <category>Technical Active</category>
-            <category>Vehicle Active</category>
-          </skillcategories>
-        </selectskill>
-      </bonus>
-      <adeptwayrequires>
-        <required>
-          <oneof>
-            <quality>The Artisan's Way</quality>
-            <quality>The Artist's Way</quality>
-            <quality>The Athlete's Way</quality>
-            <quality>The Speaker's Way</quality>
-            <quality>The Spiritual Way</quality>
-            <quality>The Warrior's Way</quality>
-          </oneof>
-        </required>
-      </adeptwayrequires>
-      <enhancements />
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </power>
   </powers>
   <spirits />
   <complexforms />
   <aiprograms />
-  <martialarts>
-    <martialart>
-      <name>Ninjutsu</name>
-      <sourceid>0b2aba07-cd8e-40b8-8bd5-a89b0c7d9699</sourceid>
-      <guid>5820daad-e849-4e07-b064-fb764e34b630</guid>
-      <source>RG</source>
-      <page>133</page>
-      <cost>7</cost>
-      <isquality>False</isquality>
-      <martialarttechniques>
-        <martialarttechnique>
-          <sourceid>3abe5ad7-c735-4f7b-ae38-f7df1081c248</sourceid>
-          <guid>ab1da551-3c3c-4efe-befd-20e52c6762bc</guid>
-          <name>Randori (Dirty Trick)</name>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <source>RG</source>
-          <page>140</page>
-        </martialarttechnique>
-      </martialarttechniques>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </martialart>
-  </martialarts>
+  <martialarts />
   <limitmodifiers>
     <limitmodifier>
       <guid>8af82cf0-7b92-4d62-9ada-b9dde7f4ed8c</guid>
@@ -2488,7 +2491,7 @@ brainer min 6(8) -
       <maxrating />
       <rating>0</rating>
       <accuracy>5</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>0</conceal>
       <avail>5R</avail>
       <cost>725</cost>
@@ -3046,7 +3049,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>Physical</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>0</conceal>
       <avail>0</avail>
       <cost>0</cost>
@@ -3129,7 +3132,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>5</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>-2</conceal>
       <avail>0</avail>
       <cost>0</cost>
@@ -3212,7 +3215,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>2</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>6</conceal>
       <avail>0</avail>
       <cost>0</cost>
@@ -3295,7 +3298,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>Physical</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>0</conceal>
       <avail>4R</avail>
       <cost>0</cost>
@@ -3378,7 +3381,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>5</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>-2</conceal>
       <avail>0</avail>
       <cost>100</cost>
@@ -3968,7 +3971,7 @@ brainer min 6(8) -
       <maxrating>0</maxrating>
       <rating>0</rating>
       <accuracy>3</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>6</conceal>
       <avail>0</avail>
       <cost>0</cost>
@@ -4051,7 +4054,7 @@ brainer min 6(8) -
       <maxrating />
       <rating>0</rating>
       <accuracy>5</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>0</conceal>
       <avail>5R</avail>
       <cost>725</cost>
@@ -4609,7 +4612,7 @@ brainer min 6(8) -
       <maxrating />
       <rating>0</rating>
       <accuracy>7</accuracy>
-      <clips />
+      <activeammoslot>1</activeammoslot>
       <conceal>6</conceal>
       <avail>9R</avail>
       <cost>1000</cost>
@@ -4996,8 +4999,7 @@ brainer min 6(8) -
       <city />
       <district />
       <borough />
-      <lifestylequalities />
-      <freegrids>
+      <lifestylequalities>
         <lifestylequality>
           <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
           <guid>99ab265f-7342-4e19-a57d-ec101d1615c3</guid>
@@ -5017,7 +5019,9 @@ brainer min 6(8) -
           <contributetolimit>True</contributetolimit>
           <print>True</print>
           <lifestylequalitytype>Entertainment</lifestylequalitytype>
-          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>True</isfreegrid>
           <source>RF</source>
           <page>222</page>
           <allowed>Medium,High,Luxury</allowed>
@@ -5026,7 +5030,7 @@ brainer min 6(8) -
           <notes />
           <notesColor>Chocolate</notesColor>
         </lifestylequality>
-      </freegrids>
+      </lifestylequalities>
       <notes />
       <notesColor>Chocolate</notesColor>
       <sortorder>0</sortorder>
@@ -10303,30 +10307,6 @@ brainer min 6(8) -
       <notesColor>Chocolate</notesColor>
     </improvement>
     <improvement>
-      <target />
-      <improvedname>Blades</improvedname>
-      <sourcename>d65e83b9-a715-4c0b-9611-ab0d2d2ad5c3</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
       <unique>5d27ec80-e4c0-4bb7-af9c-d7499cfa6c24</unique>
       <target />
       <improvedname>8c034cd7-6231-48d8-a677-f1905cb6e1d1</improvedname>
@@ -10629,30 +10609,6 @@ brainer min 6(8) -
       <exclude />
       <condition />
       <improvementttype>Attribute</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Blades</improvedname>
-      <sourcename>d65e83b9-a715-4c0b-9611-ab0d2d2ad5c3</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
       <improvementsource>Power</improvementsource>
       <custom>False</custom>
       <customname />
@@ -11106,6 +11062,30 @@ brainer min 6(8) -
     </improvement>
     <improvement>
       <target />
+      <improvedname>Blades</improvedname>
+      <sourcename>d65e83b9-a715-4c0b-9611-ab0d2d2ad5c3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
       <improvedname>Pistols</improvedname>
       <sourcename>d29cd8c6-ccd0-4219-8bab-2d8fa1c68e44</sourcename>
       <min>0</min>
@@ -11143,7 +11123,8 @@ brainer min 6(8) -
       <advantage>All: +2 to dice to Leadership or Instruction skill tests (choose one).</advantage>
       <disadvantage>If you act dishonorably or without courtesy, whether by choice or by accident, you take a –1 dice pool modifier to all actions until you atone for your behavior.</disadvantage>
       <mentormask>False</mentormask>
-      <bonus />
+      <bonus>
+      </bonus>
       <choice1>
         <specificskill>
           <name>Leadership</name>

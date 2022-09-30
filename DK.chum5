@@ -2,7 +2,7 @@
 <character>
   <createdversion>5.205.42</createdversion>
   <minimumappversion>5.214.1</minimumappversion>
-  <appversion>5.223.3</appversion>
+  <appversion>5.223.0.0</appversion>
   <gameedition>SR5</gameedition>
   <settings>803dd14a-9b21-4224-84d5-202511d94008</settings>
   <buildmethod>Karma</buildmethod>
@@ -116,7 +116,7 @@ Here's some dice math!\par
 \par
 }
 </notes>
-  <alias>Dk's Character</alias>
+  <alias>Proxy</alias>
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>

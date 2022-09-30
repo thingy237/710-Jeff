@@ -116,7 +116,7 @@ Here's some dice math!\par
 \par
 }
 </notes>
-  <alias>Wes</alias>
+  <alias>Jojo</alias>
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
@@ -1346,7 +1346,7 @@ other to escape athorities Min2(4)
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>2</karma>
+        <karma>3</karma>
         <base>0</base>
         <notes>Stealth is in the same vien of running. it's important to maintain discretion on a run, and 90% of 
 runs are going to take place in an urban enviorment, so taking the urban specialization is a no 
@@ -1495,6 +1495,23 @@ brainer min 6(8) -
     </skills>
     <knoskills>
       <skill>
+        <guid>09ad700a-959b-4acf-b7e8-9cddd77a5280</guid>
+        <suid>822b059f-c132-45ee-8c0b-df6912d5c862</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>6</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>Area Knowledge: Seattle</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
         <guid>e4e22442-2f8e-4f7f-aa17-d632676c3b0b</guid>
         <suid>907a3a8f-2c40-4543-a5a9-891bcde41f6b</suid>
         <isknowledge>True</isknowledge>
@@ -1512,10 +1529,27 @@ brainer min 6(8) -
         <isnativelanguage>True</isnativelanguage>
       </skill>
       <skill>
+        <guid>86a18b9a-0ada-45f9-b81f-5b69817ac7a1</guid>
+        <suid>a1c95207-1864-4723-b26f-b0a8c5b6290d</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>2</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>Gangs</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
         <guid>f1678621-d95f-4861-b54f-582c2b87ff05</guid>
         <suid>d06dfd90-1df0-4f05-84d5-1fea9d146f87</suid>
         <isknowledge>True</isknowledge>
-        <skillcategory>Interest</skillcategory>
+        <skillcategory>Street</skillcategory>
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
@@ -1525,15 +1559,24 @@ brainer min 6(8) -
         <notesColor>Chocolate</notesColor>
         <name>Small Unit Tactics</name>
         <buywithkarma>False</buywithkarma>
-        <specs>
-          <spec>
-            <guid>b7700a90-af95-41f7-b72e-25b01b89736e</guid>
-            <name>Urban</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
-        <type>Interest</type>
+        <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>77c58c47-6a8a-4a2d-963b-e3df731be364</guid>
+        <suid>4a046ac0-b5fe-40d8-9ec6-305ffbac189c</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>Smuggler Safe Houses</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Street</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
     </knoskills>
@@ -1644,7 +1687,7 @@ brainer min 6(8) -
       <name>Luka Dresden</name>
       <role>Paramed Shaman</role>
       <location />
-      <connection>2</connection>
+      <connection>1</connection>
       <loyalty>5</loyalty>
       <metatype>Human</metatype>
       <gender>Male</gender>
@@ -1666,6 +1709,35 @@ brainer min 6(8) -
       <free>False</free>
       <groupenabled>True</groupenabled>
       <guid>6a95d7ac-4e7a-4e5e-a279-962aa401ca39</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+    <contact>
+      <name>Penultimo</name>
+      <role />
+      <location />
+      <connection>1</connection>
+      <loyalty>1</loyalty>
+      <metatype />
+      <gender />
+      <age />
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife />
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>d7ddad80-5e39-4a3d-919a-a6866b548338</guid>
       <mainmugshotindex>-1</mainmugshotindex>
       <mugshots />
     </contact>

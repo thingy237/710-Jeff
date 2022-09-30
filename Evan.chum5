@@ -73,13 +73,13 @@
   <name />
   <mainmugshotindex>-1</mainmugshotindex>
   <mugshots />
-  <gender />
-  <age />
-  <eyes />
-  <height />
-  <weight />
-  <skin />
-  <hair />
+  <gender>Male</gender>
+  <age>22</age>
+  <eyes>Sea Green</eyes>
+  <height>5'10"</height>
+  <weight>160</weight>
+  <skin>White</skin>
+  <hair>Ronin Ponytail</hair>
   <description />
   <background />
   <concept>{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
@@ -120,13 +120,13 @@ Here's some dice math!\par
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>0</karma>
+  <karma>-7</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>0</totalattributes>
   <edgeused>0</edgeused>
   <contactpoints>9</contactpoints>
-  <contactpointsused>0</contactpointsused>
+  <contactpointsused>1</contactpointsused>
   <spelllimit>0</spelllimit>
   <cfplimit>0</cfplimit>
   <ainormalprogramlimit>0</ainormalprogramlimit>
@@ -1369,6 +1369,31 @@ brainer min 6(8) -
         <isnativelanguage>True</isnativelanguage>
       </skill>
       <skill>
+        <guid>6da434bd-a6dd-490b-b0f4-2aa115da1f4e</guid>
+        <suid>71407a60-c753-40d9-9d5b-416c43b51fef</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Interest</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>2</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>Infected</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>d8dec4eb-7396-4129-96ed-630facfa5fde</guid>
+            <name>Vampires</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Interest</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
         <guid>113d75ce-d55d-44b6-89c4-1a26a57af8bf</guid>
         <suid>3dc3854e-5d67-4ee8-8ffa-c637394859a6</suid>
         <isknowledge>True</isknowledge>
@@ -1502,17 +1527,17 @@ brainer min 6(8) -
   </newskills>
   <contacts>
     <contact>
-      <name>Cass</name>
-      <role>Armorer</role>
+      <name>Tony Smiles</name>
+      <role>Fixer</role>
       <location />
-      <connection>3</connection>
-      <loyalty>1</loyalty>
-      <metatype>Human</metatype>
+      <connection>5</connection>
+      <loyalty>2</loyalty>
+      <metatype>Troll</metatype>
       <gender>Female</gender>
       <age>Middle-Aged</age>
       <contacttype>Swag</contacttype>
       <preferredpayment>Cash (Credstick)</preferredpayment>
-      <hobbiesvice>Vehicles (Cars)</hobbiesvice>
+      <hobbiesvice />
       <personallife>Unknown</personallife>
       <type>Contact</type>
       <file />
@@ -1524,29 +1549,31 @@ brainer min 6(8) -
       <group>False</group>
       <family>False</family>
       <blackmail>False</blackmail>
-      <free>False</free>
+      <free>True</free>
       <groupenabled>True</groupenabled>
       <guid>6a95d7ac-4e7a-4e5e-a279-962aa401ca39</guid>
       <mainmugshotindex>-1</mainmugshotindex>
       <mugshots />
     </contact>
     <contact>
-      <name />
-      <role>Radical</role>
-      <location />
-      <connection>3</connection>
-      <loyalty>2</loyalty>
-      <metatype />
-      <gender />
-      <age />
-      <contacttype />
-      <preferredpayment />
-      <hobbiesvice />
-      <personallife />
+      <name>Highrise</name>
+      <role>Armorer</role>
+      <location>Downtown</location>
+      <connection>2</connection>
+      <loyalty>6</loyalty>
+      <metatype>Elf</metatype>
+      <gender>Male</gender>
+      <age>Middle-Aged</age>
+      <contacttype>Shadow Services</contacttype>
+      <preferredpayment>Service (Shadowrunner Job)</preferredpayment>
+      <hobbiesvice>Weapons (Blades)</hobbiesvice>
+      <personallife>Divorced</personallife>
       <type>Contact</type>
       <file />
       <relative />
-      <notes />
+      <notes>High top pony tail in all black and a stubly kinda beard, brown eyes. rides a motorcylce.
+
+A renowned physadept streetsam, focuses on verticality.</notes>
       <notesColor>Chocolate</notesColor>
       <groupname />
       <colour>0</colour>

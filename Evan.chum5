@@ -11065,13 +11065,13 @@ A renowned physadept streetsam, focuses on verticality.</notes>
     </improvement>
     <improvement>
       <target />
-      <improvedname>Pistols</improvedname>
-      <sourcename>d29cd8c6-ccd0-4219-8bab-2d8fa1c68e44</sourcename>
+      <improvedname>Blades</improvedname>
+      <sourcename>d65e83b9-a715-4c0b-9611-ab0d2d2ad5c3</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>2</val>
+      <val>1</val>
       <rating>1</rating>
       <exclude />
       <condition />
@@ -11096,6 +11096,30 @@ A renowned physadept streetsam, focuses on verticality.</notes>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Pistols</improvedname>
+      <sourcename>d29cd8c6-ccd0-4219-8bab-2d8fa1c68e44</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
       <rating>1</rating>
       <exclude />
       <condition />

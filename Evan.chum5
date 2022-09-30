@@ -120,7 +120,7 @@ Here's some dice math!\par
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>-7</karma>
+  <karma>0</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>0</totalattributes>
@@ -144,9 +144,9 @@ Here's some dice math!\par
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>1659.000</nuyen>
+  <nuyen>5659.000</nuyen>
   <startingnuyen>0</startingnuyen>
-  <nuyenbp>28</nuyenbp>
+  <nuyenbp>30</nuyenbp>
   <adept>True</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -714,7 +714,7 @@ cover in a run Min6(8) -
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -1083,7 +1083,7 @@ but this should average 2 hits. Min 6
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>3</karma>
+        <karma>4</karma>
         <base>0</base>
         <notes>Perception is probably the most important skill in the game, and most tests require your two (or so)
 lookers. Keep note, your vision enhancements on your glasses and audio enhancements on your earbuds 
@@ -1377,19 +1377,11 @@ brainer min 6(8) -
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>2</base>
+        <base>4</base>
         <notes />
         <notesColor>Chocolate</notesColor>
         <name>Infected</name>
         <buywithkarma>False</buywithkarma>
-        <specs>
-          <spec>
-            <guid>d8dec4eb-7396-4129-96ed-630facfa5fde</guid>
-            <name>Vampires</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
         <type>Interest</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
@@ -1407,14 +1399,6 @@ brainer min 6(8) -
         <notesColor>Chocolate</notesColor>
         <name>Security Design</name>
         <buywithkarma>False</buywithkarma>
-        <specs>
-          <spec>
-            <guid>95d6eb1a-af30-43cf-9f83-c865c38a5d1f</guid>
-            <name>Corporate</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
         <type>Interest</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
@@ -1432,14 +1416,6 @@ brainer min 6(8) -
         <notesColor>Chocolate</notesColor>
         <name>Small Unit Tactics</name>
         <buywithkarma>False</buywithkarma>
-        <specs>
-          <spec>
-            <guid>b7700a90-af95-41f7-b72e-25b01b89736e</guid>
-            <name>Urban</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
         <type>Interest</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
@@ -11089,13 +11065,13 @@ A renowned physadept streetsam, focuses on verticality.</notes>
     </improvement>
     <improvement>
       <target />
-      <improvedname>Blades</improvedname>
-      <sourcename>d65e83b9-a715-4c0b-9611-ab0d2d2ad5c3</sourcename>
+      <improvedname>Pistols</improvedname>
+      <sourcename>d29cd8c6-ccd0-4219-8bab-2d8fa1c68e44</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>1</val>
+      <val>2</val>
       <rating>1</rating>
       <exclude />
       <condition />
@@ -11113,13 +11089,13 @@ A renowned physadept streetsam, focuses on verticality.</notes>
     </improvement>
     <improvement>
       <target />
-      <improvedname>Pistols</improvedname>
-      <sourcename>d29cd8c6-ccd0-4219-8bab-2d8fa1c68e44</sourcename>
+      <improvedname>Blades</improvedname>
+      <sourcename>d65e83b9-a715-4c0b-9611-ab0d2d2ad5c3</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>2</val>
+      <val>1</val>
       <rating>1</rating>
       <exclude />
       <condition />

@@ -144,7 +144,7 @@ Here's some dice math!\par
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>144.000</nuyen>
+  <nuyen>18.000</nuyen>
   <startingnuyen>0</startingnuyen>
   <nuyenbp>257</nuyenbp>
   <adept>False</adept>
@@ -1733,97 +1733,6 @@ brainer min 6(8) -
           <discountedcost>False</discountedcost>
           <sortorder>1</sortorder>
         </armormod>
-        <armormod>
-          <guid>6d63c60d-7024-4179-9f3b-1468b3ab098c</guid>
-          <sourceid>0cfb049a-a1bd-4daa-96be-9468c37d9c3c</sourceid>
-          <name>Nonconductivity</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
-          <gearcapacity />
-          <maxrating>6</maxrating>
-          <rating>5</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>6</avail>
-          <cost>Rating * 250</cost>
-          <weight />
-          <bonus unique="nonconductivity">
-            <electricityarmor>Rating</electricityarmor>
-          </bonus>
-          <wirelessbonus />
-          <wirelesson>False</wirelesson>
-          <source>SR5</source>
-          <page>438</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
-          <guid>98ba78f4-c8ec-42a3-a007-8875960b225a</guid>
-          <sourceid>480b7c5d-758b-4833-8bfd-9487e2455f7d</sourceid>
-          <name>Chemical Protection</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
-          <gearcapacity />
-          <maxrating>6</maxrating>
-          <rating>4</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>6</avail>
-          <cost>Rating * 250</cost>
-          <weight />
-          <bonus unique="chemicalprotection">
-            <toxincontactresist>Rating</toxincontactresist>
-            <pathogencontactresist>Rating</pathogencontactresist>
-          </bonus>
-          <wirelessbonus />
-          <wirelesson>False</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
-          <guid>e003fce5-83fd-4f50-9702-0fb60f56cdcc</guid>
-          <sourceid>dd246520-7306-40fb-88b4-c9cb031208fc</sourceid>
-          <name>Fire Resistance</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
-          <gearcapacity />
-          <maxrating>6</maxrating>
-          <rating>2</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>6</avail>
-          <cost>Rating * 250</cost>
-          <weight />
-          <bonus unique="fireresistance">
-            <firearmor>Rating</firearmor>
-          </bonus>
-          <wirelessbonus />
-          <wirelesson>False</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
       </armormods>
       <bonus>
         <limitmodifier>
@@ -1952,6 +1861,149 @@ brainer min 6(8) -
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
       <sortorder>3</sortorder>
+    </armor>
+    <armor>
+      <sourceid>36a4cd30-c32c-44d0-847a-0c15fb51072a</sourceid>
+      <guid>826d8c07-efd1-4775-aaa1-fb74a4cd95e6</guid>
+      <name>Armor Jacket</name>
+      <category>Armor</category>
+      <armor>12</armor>
+      <armoroverride />
+      <armorcapacity>12</armorcapacity>
+      <avail>2</avail>
+      <cost>1000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>437</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating>0</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <emcumbrance>True</emcumbrance>
+      <armormods>
+        <armormod>
+          <guid>a1a8b459-515e-409b-988d-2e6d100cc67c</guid>
+          <sourceid>0cfb049a-a1bd-4daa-96be-9468c37d9c3c</sourceid>
+          <name>Nonconductivity</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="nonconductivity">
+            <electricityarmor>Rating</electricityarmor>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>438</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>ef9a7983-ce45-48d1-84d2-6c739cccd50c</guid>
+          <sourceid>480b7c5d-758b-4833-8bfd-9487e2455f7d</sourceid>
+          <name>Chemical Protection</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="chemicalprotection">
+            <toxincontactresist>Rating</toxincontactresist>
+            <pathogencontactresist>Rating</pathogencontactresist>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>866cbc09-2b7a-4258-b6a3-e6a5d81f893b</guid>
+          <sourceid>dd246520-7306-40fb-88b4-c9cb031208fc</sourceid>
+          <name>Fire Resistance</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="fireresistance">
+            <firearmor>Rating</firearmor>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+      </armormods>
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
     </armor>
   </armors>
   <weapons>
@@ -10456,7 +10508,7 @@ as desired any time the cyberdeck is reconfigured.</notes>
       <minrating />
       <maxrating>6</maxrating>
       <rating>6</rating>
-      <qty>2.0</qty>
+      <qty>1.0</qty>
       <avail>Rating * 2</avail>
       <cost>Rating * 25</cost>
       <weight />
@@ -10687,7 +10739,7 @@ as desired any time the cyberdeck is reconfigured.</notes>
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>4.0</qty>
+      <qty>3.0</qty>
       <avail>0</avail>
       <cost>200</cost>
       <weight />
@@ -10980,7 +11032,7 @@ as desired any time the cyberdeck is reconfigured.</notes>
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>20</qty>
+      <qty>18</qty>
       <avail>12F</avail>
       <costfor>10</costfor>
       <cost>120</cost>
@@ -11742,56 +11794,6 @@ as desired any time the cyberdeck is reconfigured.</notes>
   <initiationgrades />
   <improvements>
     <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>98ba78f4-c8ec-42a3-a007-8875960b225a</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>ToxinContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>98ba78f4-c8ec-42a3-a007-8875960b225a</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PathogenContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
       <target />
       <improvedname>Local Grid</improvedname>
       <sourcename>d5731c3d-6704-49f4-81b7-a6029dfd550a</sourcename>
@@ -12182,12 +12184,12 @@ as desired any time the cyberdeck is reconfigured.</notes>
       <unique>nonconductivity</unique>
       <target />
       <improvedname />
-      <sourcename>6d63c60d-7024-4179-9f3b-1468b3ab098c</sourcename>
+      <sourcename>a1a8b459-515e-409b-988d-2e6d100cc67c</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>5</val>
+      <val>3</val>
       <rating>1</rating>
       <exclude />
       <condition />
@@ -12207,16 +12209,66 @@ as desired any time the cyberdeck is reconfigured.</notes>
       <unique>fireresistance</unique>
       <target />
       <improvedname />
-      <sourcename>e003fce5-83fd-4f50-9702-0fb60f56cdcc</sourcename>
+      <sourcename>866cbc09-2b7a-4258-b6a3-e6a5d81f893b</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>2</val>
+      <val>3</val>
       <rating>1</rating>
       <exclude />
       <condition />
       <improvementttype>FireArmor</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>ef9a7983-ce45-48d1-84d2-6c739cccd50c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>ef9a7983-ce45-48d1-84d2-6c739cccd50c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactResist</improvementttype>
       <improvementsource>ArmorMod</improvementsource>
       <custom>False</custom>
       <customname />

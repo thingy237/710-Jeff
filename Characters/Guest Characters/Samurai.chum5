@@ -2,9 +2,10 @@
 <character>
   <createdversion>5.205.42</createdversion>
   <minimumappversion>5.214.1</minimumappversion>
-  <appversion>5.223.0.0</appversion>
+  <appversion>5.224.11</appversion>
   <gameedition>SR5</gameedition>
   <settings>803dd14a-9b21-4224-84d5-202511d94008</settings>
+  <settingshashcode>804030175</settingshashcode>
   <buildmethod>Karma</buildmethod>
   <sources>
     <source>SR5</source>
@@ -52,7 +53,7 @@
   <metatypeid>b3259991-b315-4dbe-ae3c-51f71a1116e2</metatypeid>
   <metatypebp>40</metatypebp>
   <metavariant>None</metavariant>
-  <metavariantid>00000000-0000-0000-0000-000000000000</metavariantid>
+  <metavariantid>b3259991-b315-4dbe-ae3c-51f71a1116e2</metavariantid>
   <metatypecategory>Metahuman</metatypecategory>
   <movement />
   <walk>2/1/0</walk>
@@ -111,7 +112,7 @@ https://anydice.com/program/1a24f
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>0</karma>
+  <karma>10</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>0</totalattributes>
@@ -135,9 +136,9 @@ https://anydice.com/program/1a24f
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>1644.000</nuyen>
+  <nuyen>744.000</nuyen>
   <startingnuyen>0</startingnuyen>
-  <nuyenbp>197</nuyenbp>
+  <nuyenbp>199</nuyenbp>
   <adept>False</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -274,7 +275,7 @@ https://anydice.com/program/1a24f
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <metatypecategory>Special</metatypecategory>
+      <metatypecategory>Standard</metatypecategory>
       <totalvalue>1</totalvalue>
     </attribute>
     <attribute>
@@ -918,7 +919,7 @@ medkit to the dice your roll. Min 4(6) -
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>2</karma>
+        <karma>3</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -1432,7 +1433,7 @@ brainer min 6(8) -
         <name>Engineering</name>
       </group>
       <group>
-        <karma>4</karma>
+        <karma>3</karma>
         <base>0</base>
         <isbroken>False</isbroken>
         <id>263874a4-78da-4ae1-a81d-43a6b3ffac83</id>
@@ -1715,37 +1716,6 @@ brainer min 6(8) -
           <sortorder>1</sortorder>
         </armormod>
         <armormod>
-          <guid>90c7303e-a56b-4f32-af72-cd129f41d17c</guid>
-          <sourceid>480b7c5d-758b-4833-8bfd-9487e2455f7d</sourceid>
-          <name>Chemical Protection</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
-          <gearcapacity />
-          <maxrating>6</maxrating>
-          <rating>4</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>6</avail>
-          <cost>Rating * 250</cost>
-          <weight />
-          <bonus unique="chemicalprotection">
-            <toxincontactresist>Rating</toxincontactresist>
-            <pathogencontactresist>Rating</pathogencontactresist>
-          </bonus>
-          <wirelessbonus />
-          <wirelesson>False</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
           <guid>f8aa074d-de2a-433c-9281-dfba57716474</guid>
           <sourceid>dd246520-7306-40fb-88b4-c9cb031208fc</sourceid>
           <name>Fire Resistance</name>
@@ -1771,6 +1741,39 @@ brainer min 6(8) -
           <extra />
           <stolen>False</stolen>
           <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>cf3d4c84-a1c9-4f91-b671-f43de019302a</guid>
+          <sourceid>1e002d2e-cd93-4cef-a666-b6c6449f4e9f</sourceid>
+          <name>Chemical Seal</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[6]</armorcapacity>
+          <gearcapacity />
+          <maxrating>1</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>12R</avail>
+          <cost>3000</cost>
+          <weight />
+          <bonus>
+            <toxincontactimmune />
+            <toxininhalationimmune />
+            <pathogencontactimmune />
+            <pathogeninhalationimmune />
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes>Chemical seal: Available only to full body armor that includes a helmet, the chemical seal is an airtight environmental control that takes a Complex Action to activate (if you’re already wearing the armor, natch). It provides complete protection against contact and inha- lation vector chemicals, but can only be used for a total of an hour (the limit of the air supply) at a time.</notes>
           <notesColor>Chocolate</notesColor>
           <discountedcost>False</discountedcost>
           <sortorder>0</sortorder>
@@ -1877,7 +1880,41 @@ brainer min 6(8) -
       <ratinglabel>String_Rating</ratinglabel>
       <stolen>False</stolen>
       <emcumbrance>True</emcumbrance>
-      <armormods />
+      <armormods>
+        <armormod>
+          <guid>c9914aff-9c76-4a76-a9bc-dc5086e8ddc9</guid>
+          <sourceid>1e002d2e-cd93-4cef-a666-b6c6449f4e9f</sourceid>
+          <name>Chemical Seal</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[6]</armorcapacity>
+          <gearcapacity />
+          <maxrating>1</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>12R</avail>
+          <cost>3000</cost>
+          <weight />
+          <bonus>
+            <toxincontactimmune />
+            <toxininhalationimmune />
+            <pathogencontactimmune />
+            <pathogeninhalationimmune />
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes>Chemical seal: Available only to full body armor that includes a helmet, the chemical seal is an airtight environmental control that takes a Complex Action to activate (if you’re already wearing the armor, natch). It provides complete protection against contact and inha- lation vector chemicals, but can only be used for a total of an hour (the limit of the air supply) at a time.</notes>
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+      </armormods>
       <gears>
         <gear>
           <sourceid>b0eef1d1-31ad-4e5c-bd55-27b2ae492327</sourceid>
@@ -1919,6 +1956,66 @@ brainer min 6(8) -
           <children />
           <location />
           <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>2633cf38-90a6-4843-b475-e3ee1132fb5f</sourceid>
+          <guid>d90e8320-b046-4f03-8e03-e45a0f7072af</guid>
+          <name>Gas Mask</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity>[2]</armorcapacity>
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>200</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus>
+            <toxininhalationimmune />
+            <pathogeninhalationimmune />
+          </bonus>
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>449</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Gas mask: This air-supplied re-breather complete- ly covers your face and gives you immunity to inhala- tion-vector toxin attacks (Toxins, Drugs, and BTLs, p. 408). It comes with a one-hour clean-air supply (replace- ments cost 40 nuyen) and can be attached to larger air tanks. It cannot be combined with a regular respirator.</notes>
           <notesColor>Chocolate</notesColor>
           <discountedcost>False</discountedcost>
           <programlimit />
@@ -4240,7 +4337,7 @@ brainer min 6(8) -
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
       <forcegrade />
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -4322,7 +4419,7 @@ brainer min 6(8) -
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
       <forcegrade />
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -4399,7 +4496,7 @@ brainer min 6(8) -
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
       <forcegrade />
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -4457,7 +4554,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -4533,7 +4630,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -4608,7 +4705,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -4683,7 +4780,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -4786,7 +4883,7 @@ brainer min 6(8) -
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
       <forcegrade />
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -4848,7 +4945,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -4923,7 +5020,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -5004,7 +5101,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -5079,7 +5176,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -5182,7 +5279,7 @@ brainer min 6(8) -
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
       <forcegrade />
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -5263,7 +5360,7 @@ brainer min 6(8) -
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
       <forcegrade />
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -5555,7 +5652,7 @@ brainer min 6(8) -
           <area>0</area>
           <comforts>0</comforts>
           <security>0</security>
-          <contributetolimit>True</contributetolimit>
+          <uselpcost>True</uselpcost>
           <print>True</print>
           <lifestylequalitytype>Entertainment</lifestylequalitytype>
           <lifestylequalitysource>BuiltIn</lifestylequalitysource>
@@ -9143,66 +9240,6 @@ brainer min 6(8) -
       <sortorder>23</sortorder>
     </gear>
     <gear>
-      <sourceid>241e831d-230a-403b-a4a1-1e601b1afdc3</sourceid>
-      <guid>75ecbb71-09ed-497e-a5de-f337268ab4d4</guid>
-      <name>Respirator</name>
-      <category>Survival Gear</category>
-      <capacity />
-      <armorcapacity>[2]</armorcapacity>
-      <minrating />
-      <maxrating>6</maxrating>
-      <rating>6</rating>
-      <qty>1.0</qty>
-      <avail>0</avail>
-      <cost>Rating * 50</cost>
-      <weight />
-      <extra />
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus>
-        <toxininhalationresist>Rating</toxininhalationresist>
-        <pathogeninhalationresist>Rating</pathogeninhalationresist>
-      </bonus>
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>449</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location />
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>28</sortorder>
-    </gear>
-    <gear>
       <sourceid>95bff6e2-d788-407b-9069-093250f89fcb</sourceid>
       <guid>dbbda1fa-882c-4d2f-b705-a34b82b95b2f</guid>
       <name>Ammo: Flechette Rounds</name>
@@ -9703,7 +9740,7 @@ brainer min 6(8) -
       <dealerconnection>False</dealerconnection>
       <active>False</active>
       <homenode>False</homenode>
-      <devicerating />
+      <devicerating>1</devicerating>
       <programlimit />
       <overclocked>None</overclocked>
       <attack />
@@ -9766,106 +9803,6 @@ brainer min 6(8) -
       <condition />
       <improvementttype>Smartlink</improvementttype>
       <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>respirator</unique>
-      <target />
-      <improvedname />
-      <sourcename>75ecbb71-09ed-497e-a5de-f337268ab4d4</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>6</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>ToxinInhalationResist</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>respirator</unique>
-      <target />
-      <improvedname />
-      <sourcename>75ecbb71-09ed-497e-a5de-f337268ab4d4</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>6</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PathogenInhalationResist</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>90c7303e-a56b-4f32-af72-cd129f41d17c</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>ToxinContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>90c7303e-a56b-4f32-af72-cd129f41d17c</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PathogenContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -10377,6 +10314,246 @@ brainer min 6(8) -
       <exclude />
       <condition />
       <improvementttype>Restricted</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>cf3d4c84-a1c9-4f91-b671-f43de019302a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactImmune</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>cf3d4c84-a1c9-4f91-b671-f43de019302a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinInhalationImmune</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>cf3d4c84-a1c9-4f91-b671-f43de019302a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactImmune</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>cf3d4c84-a1c9-4f91-b671-f43de019302a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInhalationImmune</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>c9914aff-9c76-4a76-a9bc-dc5086e8ddc9</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactImmune</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>c9914aff-9c76-4a76-a9bc-dc5086e8ddc9</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinInhalationImmune</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>c9914aff-9c76-4a76-a9bc-dc5086e8ddc9</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactImmune</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>c9914aff-9c76-4a76-a9bc-dc5086e8ddc9</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInhalationImmune</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d90e8320-b046-4f03-8e03-e45a0f7072af</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinInhalationImmune</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d90e8320-b046-4f03-8e03-e45a0f7072af</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInhalationImmune</improvementttype>
       <improvementsource>Gear</improvementsource>
       <custom>False</custom>
       <customname />

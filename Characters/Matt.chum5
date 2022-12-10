@@ -2,9 +2,10 @@
 <character>
   <createdversion>5.205.42</createdversion>
   <minimumappversion>5.214.1</minimumappversion>
-  <appversion>5.223.0.0</appversion>
+  <appversion>5.224.11</appversion>
   <gameedition>SR5</gameedition>
   <settings>All rules point buy.xml</settings>
+  <settingshashcode>-2146275846</settingshashcode>
   <buildmethod>Karma</buildmethod>
   <sources>
     <source>AP</source>
@@ -131,7 +132,7 @@ Here's some dice math!\par
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>0</karma>
+  <karma>21</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>0</totalattributes>
@@ -145,7 +146,7 @@ Here's some dice math!\par
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
   <basecarrylimit>10</basecarrylimit>
-  <baseliftlimit>-79228162514264337593543950335</baseliftlimit>
+  <baseliftlimit>15</baseliftlimit>
   <totalcarriedweight>0.000</totalcarriedweight>
   <encumbranceinterval>-79228162514264337593543950335</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -155,9 +156,9 @@ Here's some dice math!\par
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>629.000</nuyen>
+  <nuyen>5729.000</nuyen>
   <startingnuyen>0</startingnuyen>
-  <nuyenbp>36</nuyenbp>
+  <nuyenbp>37</nuyenbp>
   <adept>False</adept>
   <magician>False</magician>
   <technomancer>True</technomancer>
@@ -283,9 +284,9 @@ Here's some dice math!\par
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
-      <karma>5</karma>
+      <karma>4</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>4</totalvalue>
     </attribute>
     <attribute>
       <name>ESS</name>
@@ -689,7 +690,7 @@ cover in a run Min6(8) -
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>3</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -849,15 +850,7 @@ medkit to the dice your roll. Min 4(6) -
 </notes>
         <notesColor>Chocolate</notesColor>
         <name>Gymnastics</name>
-        <buywithkarma>True</buywithkarma>
-        <specs>
-          <spec>
-            <guid>0e47d675-f1b3-4546-ad47-c76c7621cf22</guid>
-            <name>Parkour</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
+        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>ec55e9fa-1b97-4796-a61b-25b1a0508ce8</guid>
@@ -1309,7 +1302,7 @@ brainer min 6(8) -
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>2</karma>
+        <karma>4</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -1426,7 +1419,7 @@ brainer min 6(8) -
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>b7700a90-af95-41f7-b72e-25b01b89736e</guid>
+            <guid>1367ae8c-d95b-4c25-a975-9bf6769b1578</guid>
             <name>Urban</name>
             <free>False</free>
             <expertise>False</expertise>
@@ -1474,7 +1467,7 @@ brainer min 6(8) -
         <name>Cracking</name>
       </group>
       <group>
-        <karma>3</karma>
+        <karma>2</karma>
         <base>0</base>
         <isbroken>False</isbroken>
         <id>ce693b63-909d-46c3-9d67-d5b65992d328</id>
@@ -1559,7 +1552,24 @@ brainer min 6(8) -
   <foci />
   <stackedfoci />
   <powers />
-  <spirits />
+  <spirits>
+    <spirit>
+      <guid>dd38b7d6-4aa0-44b0-8ca8-a0296eb8f9ea</guid>
+      <name>Machine Sprite</name>
+      <crittername>Pixel</crittername>
+      <services>6</services>
+      <force>4</force>
+      <bound>True</bound>
+      <fettered>False</fettered>
+      <type>Sprite</type>
+      <file />
+      <relative />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </spirit>
+  </spirits>
   <complexforms>
     <complexform>
       <sourceid>f53a57c9-5073-4af3-aff9-45e3e449ac59</sourceid>
@@ -1708,15 +1718,6 @@ brainer min 6(8) -
       <limit>Physical</limit>
       <bonus>1</bonus>
       <condition>LimitCondition_CyberwareHydraulicJacks</condition>
-      <candelete>False</candelete>
-      <notes />
-    </limitmodifier>
-    <limitmodifier>
-      <guid>e5873cc9-a0d1-4208-9e57-394fdbc1699e</guid>
-      <name>Vashon Island: Ace of Coins</name>
-      <limit>Social</limit>
-      <bonus>3</bonus>
-      <condition>LimitCondition_Visible</condition>
       <candelete>False</candelete>
       <notes />
     </limitmodifier>
@@ -1890,160 +1891,6 @@ brainer min 6(8) -
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
       <sortorder>1</sortorder>
-    </armor>
-    <armor>
-      <sourceid>cf582ec4-0e5d-4ddb-a38e-4c6be954c514</sourceid>
-      <guid>d0cc80ba-e8f7-4101-998e-4846350d0513</guid>
-      <name>Vashon Island: Ace of Coins</name>
-      <category>High-Fashion Armor Clothing</category>
-      <armor>7</armor>
-      <armoroverride />
-      <armorcapacity>10</armorcapacity>
-      <avail>4</avail>
-      <cost>2100</cost>
-      <weight />
-      <source>RG</source>
-      <page>60</page>
-      <armorname />
-      <equipped>True</equipped>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <wirelesson>False</wirelesson>
-      <canformpersona />
-      <extra />
-      <damage>0</damage>
-      <rating>0</rating>
-      <maxrating>0</maxrating>
-      <ratinglabel>String_Rating</ratinglabel>
-      <stolen>False</stolen>
-      <emcumbrance>True</emcumbrance>
-      <armormods>
-        <armormod>
-          <guid>8759433b-0e6a-4984-8316-57b1aa010b13</guid>
-          <sourceid>480b7c5d-758b-4833-8bfd-9487e2455f7d</sourceid>
-          <name>Chemical Protection</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
-          <gearcapacity />
-          <maxrating>6</maxrating>
-          <rating>4</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>6</avail>
-          <cost>Rating * 250</cost>
-          <weight />
-          <bonus unique="chemicalprotection">
-            <toxincontactresist>Rating</toxincontactresist>
-            <pathogencontactresist>Rating</pathogencontactresist>
-          </bonus>
-          <wirelessbonus />
-          <wirelesson>False</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
-          <guid>f10e5362-3495-48d7-b1f7-005329eadaf2</guid>
-          <sourceid>0cfb049a-a1bd-4daa-96be-9468c37d9c3c</sourceid>
-          <name>Nonconductivity</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
-          <gearcapacity />
-          <maxrating>6</maxrating>
-          <rating>4</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>6</avail>
-          <cost>Rating * 250</cost>
-          <weight />
-          <bonus unique="nonconductivity">
-            <electricityarmor>Rating</electricityarmor>
-          </bonus>
-          <wirelessbonus />
-          <wirelesson>False</wirelesson>
-          <source>SR5</source>
-          <page>438</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
-          <guid>6bb4d0dd-a7bd-42de-97b3-7297105402dd</guid>
-          <sourceid>dd246520-7306-40fb-88b4-c9cb031208fc</sourceid>
-          <name>Fire Resistance</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
-          <gearcapacity />
-          <maxrating>6</maxrating>
-          <rating>4</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>6</avail>
-          <cost>Rating * 250</cost>
-          <weight />
-          <bonus unique="fireresistance">
-            <firearmor>Rating</firearmor>
-          </bonus>
-          <wirelessbonus />
-          <wirelesson>False</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-      </armormods>
-      <bonus>
-        <limitmodifier>
-          <limit>Social</limit>
-          <value>3</value>
-          <condition>LimitCondition_Visible</condition>
-        </limitmodifier>
-      </bonus>
-      <wirelessbonus>
-        <skillcategory>
-          <name>Social Active</name>
-          <bonus>1</bonus>
-        </skillcategory>
-      </wirelessbonus>
-      <location />
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <sortorder>2</sortorder>
     </armor>
   </armors>
   <weapons>
@@ -3747,7 +3594,7 @@ brainer min 6(8) -
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
       <forcegrade />
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -3813,7 +3660,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -3920,7 +3767,7 @@ brainer min 6(8) -
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
       <forcegrade />
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -3986,7 +3833,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -4067,7 +3914,7 @@ brainer min 6(8) -
           <stolen>False</stolen>
           <essdiscount>0</essdiscount>
           <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
           <forcegrade />
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
@@ -4394,7 +4241,7 @@ brainer min 6(8) -
           <area>0</area>
           <comforts>0</comforts>
           <security>0</security>
-          <contributetolimit>True</contributetolimit>
+          <uselpcost>True</uselpcost>
           <print>True</print>
           <lifestylequalitytype>Entertainment</lifestylequalitytype>
           <lifestylequalitysource>BuiltIn</lifestylequalitysource>
@@ -8735,6 +8582,65 @@ brainer min 6(8) -
       <homenode>False</homenode>
       <sortorder>0</sortorder>
     </gear>
+    <gear>
+      <sourceid>ef37af30-1204-4918-af66-dfbdd33cd045</sourceid>
+      <guid>234319fd-b4de-4a8b-898e-b6e67912f742</guid>
+      <name>Reagents, per dram</name>
+      <category>Magical Supplies</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>100</qty>
+      <avail>0</avail>
+      <cost>20</cost>
+      <weight />
+      <extra>Technomancy</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus>
+        <selecttradition />
+      </bonus>
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>317</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
   </gears>
   <vehicles>
     <vehicle>
@@ -9682,130 +9588,6 @@ brainer min 6(8) -
     </improvement>
     <improvement>
       <target />
-      <improvedname>e5873cc9-a0d1-4208-9e57-394fdbc1699e</improvedname>
-      <sourcename>d0cc80ba-e8f7-4101-998e-4846350d0513</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>3</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_Visible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>8759433b-0e6a-4984-8316-57b1aa010b13</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>ToxinContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>8759433b-0e6a-4984-8316-57b1aa010b13</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PathogenContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>nonconductivity</unique>
-      <target />
-      <improvedname />
-      <sourcename>f10e5362-3495-48d7-b1f7-005329eadaf2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>ElectricityArmor</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>fireresistance</unique>
-      <target />
-      <improvedname />
-      <sourcename>6bb4d0dd-a7bd-42de-97b3-7297105402dd</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>FireArmor</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Evo</improvedname>
       <sourcename>0d048cd0-25f5-4072-bde0-a2d8df0639a8</sourcename>
       <min>0</min>
@@ -9878,18 +9660,18 @@ brainer min 6(8) -
     </improvement>
     <improvement>
       <target />
-      <improvedname>RES</improvedname>
-      <sourcename />
-      <min>-1</min>
-      <max>-1</max>
+      <improvedname />
+      <sourcename>d5d80cd9-2b90-4f00-8278-57125f503c6f</sourcename>
+      <min>0</min>
+      <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>0</val>
+      <val>-1</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
+      <improvementttype>Notoriety</improvementttype>
+      <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -9902,18 +9684,18 @@ brainer min 6(8) -
     </improvement>
     <improvement>
       <target />
-      <improvedname>DEP</improvedname>
-      <sourcename />
-      <min>-1</min>
-      <max>-1</max>
+      <improvedname>Technomancy</improvedname>
+      <sourcename>234319fd-b4de-4a8b-898e-b6e67912f742</sourcename>
+      <min>0</min>
+      <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
+      <improvementttype>Tradition</improvementttype>
+      <improvementsource>Gear</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -9974,18 +9756,42 @@ brainer min 6(8) -
     </improvement>
     <improvement>
       <target />
-      <improvedname />
-      <sourcename>d5d80cd9-2b90-4f00-8278-57125f503c6f</sourcename>
-      <min>0</min>
-      <max>0</max>
+      <improvedname>RES</improvedname>
+      <sourcename />
+      <min>-1</min>
+      <max>-1</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>-1</val>
+      <val>0</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Notoriety</improvementttype>
-      <improvementsource>Quality</improvementsource>
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>DEP</improvedname>
+      <sourcename />
+      <min>-1</min>
+      <max>-1</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
